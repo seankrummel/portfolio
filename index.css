@@ -15,20 +15,19 @@ body {
 }
 #left {
   flex-shrink: 0;
+  border-right: 1px solid black;
 }
 #right {
   width: 100%;
 }
 .top-left {
-  background-color: darkgray;
-  border: 1px solid black;
   flex-shrink: 0;
 }
 .top-right {
-  background-color: darkgray;
-  border: 1px solid black;
+  border-bottom: 1px dashed black;
   flex-shrink: 0;
   display: inline-flex;
+  flex-direction: row;
 }
 ul {
   display: inline-flex;
@@ -37,8 +36,6 @@ ul {
 }
 .bottom {
   flex-grow: 1;
-  background-color: darkgray;
-  border: 1px solid black;
   justify-content: center;
   align-items: center;
   /* why aren't things centered? */
