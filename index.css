@@ -27,7 +27,7 @@ body {
   border-bottom: 1px dashed black;
   flex-shrink: 0;
   display: inline-flex;
-  flex-direction: row;
+  flex-direction: column;
 }
 ul {
   display: inline-flex;
