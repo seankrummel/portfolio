@@ -72,3 +72,15 @@ a:link {
 a:visited {
   color: rgb(186, 149, 186);
 }
+.project img {
+  margin-right: 5px;
+  height: 100px;
+  float: left;
+}
+.project h4 {
+  margin: 0;
+}
+.project ul {
+  margin-top: 0;
+  width: 100%;
+}
