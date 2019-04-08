@@ -39,7 +39,7 @@ body {
 }
 ul {
   padding: 0;
-  display: inline-flex;
+  /* display: inline-flex; */
   list-style: none;
   flex-direction: column;
   /* align-items: center; */
@@ -62,6 +62,9 @@ ul {
   flex-direction: column;
   align-items: center;
 }
+main, .top-right p {
+  width: 960px;
+}
 .projects {
   overflow-y: auto;
 }
@@ -77,13 +80,13 @@ a:link {
 a:visited {
   color: rgb(186, 149, 186);
 }
+.project {
+  margin-bottom: 5%;
+}
 .project img {
   margin-right: 5px;
-  height: 100px;
+  width: 50%;
   float: left;
-}
-.project h4 {
-  margin: 0;
 }
 .project ul {
   margin-top: 0;
@@ -96,6 +99,9 @@ a:visited {
   }
   .column {
     height: auto;
+  }
+  main, .top-right p {
+    width: 100%;
   }
   #left {
     height: 100%;
