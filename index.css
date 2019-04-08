@@ -56,7 +56,10 @@ ul {
   align-content: center;
   justify-content: center;
 }
-.contact ul {
+.links {
+  margin-top: 10px;
+  display: inline-flex;
+  flex-direction: column;
   align-items: center;
 }
 .projects {
