@@ -57,8 +57,7 @@
           <h3>Title</h3>
           <img class="project-screenshot" src="http://placekitten.com/200/100" alt="screenshot"/>
           <p>Description of the project</p>
-          <h4>Tech Stack</h4>
-          <ul>
+          <ul id="techStack">
             <li><b>Deployment:</b></li>
             <li><b>Client:</b></li>
             <li><b>Server:</b></li>
@@ -68,12 +67,37 @@
           <a href="">Deployed Version</a>
         </div> -->
         <div class="project">
+          <h3>Game-A-Tron</h3>
+          <img class="project-screenshot" src="./images/screenshotGameATron.jpg" alt="screenshot"/>
+          <p>
+            I worked on Game-A-Tron as part of a group of four developers. It's
+            a tool to turn mundane tasks (e.g. chores) into games by assigning
+            points to actions. We included an image upload system so that users
+            could add images to their posts. Most of the time I spent on this
+            project was working on the server side. I also implemented an email
+            system using node-mailer that we used to verify new users. We used
+            Agile development to keep ourselves organized.
+          </p>
+          <ul>
+            <li>
+              <b>Deployment:</b> The client is hosted on Netlify, the server is
+              on Heroku, the database is on mLab, and we use Gmail to send
+              emails
+            </li>
+            <li><b>Client:</b> React and Redux</li>
+            <li><b>Server:</b> NodeJS express server, JWTs with passport, BcryptJS, Cloudinary, node-mailer</li>
+            <li><b>Database:</b> MongoDB</li>
+          </ul>
+          <a href="https://github.com/open-sourcerers-ei26/client">GitHub repo</a>
+          <a href="https://ei26.netlify.com/">Deployed Version</a>
+        </div>
+        <div class="project">
           <h3>Schnapsidee</h3>
           <img class="project-screenshot" src="./images/screenshotSchnapsidee.jpg" alt="screenshot"/>
           <p>
             Schnapsidee is a project I worked on in a pair. It uses a spaced
-            repetition algorithm to teach German vocabulary. The algorithm uses a
-            linked list, and because of limitations in the database we
+            repetition algorithm to teach German vocabulary. The algorithm uses
+            a linked list, and because of limitations in the database we
             implemented the linked list using an array of objects (keys are the
             vocabulary and also the index of the next item). This project was an
             exercise in pair programming and creating algorithms so we only have
@@ -81,8 +105,8 @@
           </p>
           <ul id="techStack">
             <li>
-              <b>Deployment:</b> The client and server are both hosted on Heroku and the
-              database is hosted on mLab
+              <b>Deployment:</b> The client and server are both hosted on Heroku
+              and the database is hosted on mLab
             </li>
             <li><b>Client:</b> React and Redux</li>
             <li><b>Server:</b> NodeJS express server, JWTs with passport, BcryptJS</li>
@@ -92,28 +116,26 @@
           <a href="https://german-steve-sean.herokuapp.com/">Deployed Version</a>
         </div>
         <div class="project">
-          <h3>Game-A-Tron</h3>
-          <img class="project-screenshot" src="./images/screenshotGameATron.jpg" alt="screenshot"/>
+          <h3>Recipes App</h3>
+          <img class="project-screenshot" src="./images/screenshotRecipeApp.jpg" alt="screenshot"/>
           <p>
-            I worked on Game-A-Tron as part of a group of four developers. It's a
-            tool to turn mundane tasks (e.g. chores) into games by assigning
-            points to actions. We included an image upload system so that users
-            could add images to their posts. Most of the time I spent on this
-            project was working on the server side. I also implemented an email
-            system using node-mailer that we used to verify new users. We used
-            Agile development to keep ourselves organized.
+            This is a very simple MERN (Mongo, Express, React, Node) app that I
+            developed during my time at Thinkful. It is for creating and saving
+            recipes, and was an exercise for me to learn how to use React and
+            have it communicate with a server.. I was the sole developer on this
+            project.
           </p>
           <ul>
             <li>
-              <b>Deployment:</b> The client is hosted on Netlify, the server is on
-              Heroku, the database is on mLab, and we use Gmail to send emails
+              <b>Deployment:</b> The client and server are both hosted on Heroku
+              and the database is hosted on mLab
             </li>
             <li><b>Client:</b> React and Redux</li>
-            <li><b>Server:</b> NodeJS express server, JWTs with passport, BcryptJS, Cloudinary, node-mailer</li>
+            <li><b>Server:</b>NodeJs express server, JWTs with passport, BcryptJS</li>
             <li><b>Database:</b> MongoDB</li>
           </ul>
-          <a href="https://github.com/open-sourcerers-ei26/client">GitHub repo</a>
-          <a href="https://ei26.netlify.com/">Deployed Version</a>
+          <a href="https://github.com/seankrummel/recipes-client">GitHub repo</a>
+          <a href="https://sean-fullstack-client.herokuapp.com/">Deployed Version</a>
         </div>
       </main>
     </div>

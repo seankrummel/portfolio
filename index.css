@@ -83,10 +83,11 @@ a:visited {
 .project {
   margin-bottom: 5%;
 }
-.project img {
+.project-screenshot {
   margin-right: 5px;
   width: 50%;
   float: left;
+  border: 1px solid black;
 }
 .project ul {
   margin-top: 0;
