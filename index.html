@@ -15,7 +15,7 @@
       <h1>Sean Krummel</h1>
     </div>
     <div class="bottom contact">
-      <img class="headshot" src="/images/headshot.jpg" alt="my headshot"/>
+      <img class="headshot" src="./images/headshot.jpg" alt="my headshot"/>
       <!-- <ul>
         <li>
           <a href="/Resume.pdf">Resume</a>
@@ -29,7 +29,7 @@
         </li>
       </ul> -->
       <div class="links">
-        <a href="/Resume.pdf">Resume</a>
+        <a href="./Resume.pdf">Resume</a>
         <a href="https://github.com/seankrummel">GitHub</a>
         <a href="https://www.linkedin.com/in/sean-krummel-155359176/">LinkedIn</a>
         <a href="mailto:sean.krummel@gmail.com">Email Me</a>
@@ -40,14 +40,14 @@
     <div class="top-right">
       <h2>About Me</h2>
       <p>
-        I am a full-stack developer currently employed at John Deere. I studied
+        I am a full-stack developer currently employed at Capital One. I studied
         Computer Science at Luther College before leaving to pursue Thinkful's
         Engineering Immersion bootcamp. I have experience using jQuerry or React
-        on the front end and Node or Java on the back end with an SQL or Mongo
-        database and am eager to learn new technologies as well as work with and
-        learn from a team of great developers. Outside of programming I enjoy
-        tabletop role playing games as well as playing or watching soccer and
-        ultimate frisbee.
+        on the front end and Node, Java, or Scala on the back end with an SQL or
+        Mongo database and am eager to learn new technologies as well as work
+        with and learn from a team of great developers. Outside of programming I
+        enjoy tabletop role playing games as well as playing or watching soccer
+        and ultimate frisbee.
       </p>
     </div>
     <div class="bottom projects">
@@ -67,6 +67,22 @@
           <a href="">Deployed Version</a>
         </div> -->
         <div class="project">
+          <h3>John Deere</h3>
+          <p>
+            I worked at John Deere from August 2019 to October 2020. Our team
+            was responsible for the maintainance of a system that processed
+            data streams via AWS.
+          </p>
+          <ul id="techStack">
+            <li>
+              <b>Deployment:</b> Deployment was done via Jenkins pipelines. Our
+              code was deployed to EC2 instances and executed via Lambda
+              functions.
+              <b>Database:</b> We used a NoSQL database hosted on DynamoDB.
+            </li>
+          </ul>
+        </div>
+        <div class="project">
           <h3>Game-A-Tron</h3>
           <img class="project-screenshot" src="./images/screenshotGameATron.jpg" alt="screenshot"/>
           <p>
@@ -78,7 +94,7 @@
             system using node-mailer that we use to verify new users. We used
             Agile development to keep ourselves organized.
           </p>
-          <ul>
+          <ul id="techStack">
             <li>
               <b>Deployment:</b> The client is hosted on Netlify, the server is
               on Heroku, the database is on mLab, and we use Gmail to send
